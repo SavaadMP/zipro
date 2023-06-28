@@ -4,4 +4,76 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 5px 20px;
+}
+header .brand__content {
+  display: flex;
+  align-items: center;
+}
+header .brand__content .brand__logo img {
+  width: 100px;
+}
+header .brand__content .brand__name h3 {
+  font-weight: 800;
+  font-size: 25px;
+}
+header .brand__content .brand__name p {
+  color: #eb1751;
+  font-weight: bold;
+}
+
+.home__container {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home__container .home__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home__container .home__content .left__section h1 {
+  font-size: 55px;
+}
+.home__container .home__content .left__section h1 span {
+  color: #eb1751;
+}
+.home__container .home__content .left__section p {
+  margin-top: 10px;
+  font-weight: 800;
+  color: #5f5f5f;
+}
+.home__container .home__content .left__section .button__group a {
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 20px;
+  width: 160px;
+  background: #eb1751;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+.home__container .home__content .left__section .button__group a i {
+  color: white;
+  margin-left: 5px;
+  font-size: 20px;
+}
+.home__container .home__content .left__section .button__group a:hover {
+  width: 180px;
+  background: #b6123e;
+}
+.home__container .home__content .right__section img {
+  width: 350px;
 }/*# sourceMappingURL=style.css.map */
